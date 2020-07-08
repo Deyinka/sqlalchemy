@@ -1,34 +1,30 @@
-*Instructions: Click on the raw button in the upper right hand corner of this box.  Copy and paste the template into the README.md document on your github.  Fill in the titles, information and links where prompted! Feel free to stray a bit to suit your project but try to stick to the format as closely as possible for consistency across DSWG projects.*
+ Project Name
+Surf Play on Honolulu Beach
 
-# Project Name
-Surf Play In Honolulu Beach
-
-#### -- Project Status: [Completed]
+- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is climate analysis of Honolulu.
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+The purpose of this project is climate analysis and data exploration database of Honolulu.
 
 ### Methods Used
 * Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Data Visualization abd Analysis
 
 ### Technologies
 * SQLAlchemy
 * Python
 * PostGres, MySql
-* Pandas, jupyter
+* Pandas, Matplotlib.
 
 
 ## Project Description
+Python and SQLAlchemy is used to do basic climate analysis and data exploration of your climate database. Using the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
+
+* Choose a start date and end date for your trip. Make sure that your vacation range is approximately 3-15 days total.
+
+* Use SQLAlchemy `create_engine` to connect to your sqlite database.
+
+* Use SQLAlchemy `automap_base()` to reflect your tables into classes and save a reference to those classes called `Station` and `Measurement`.
 (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 
 
